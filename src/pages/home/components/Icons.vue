@@ -16,53 +16,18 @@
 <script>
 export default {
   name: 'Icons',
+  props: {
+    list: Array
+  },
   data() {
     return {
-      swiperOption: {
-      },
-      iconList: [{
-        id: '0001',
-        imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
-        desc: '景点门票'
-      },{
-        id: '0002',
-        imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/bd/9f7b9b2b60c1502.png',
-        desc: '踏青赏花'
-      },{
-        id: '0003',
-        imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/bd/9f7b9b2b60c1502.png',
-        desc: '踏青赏花'
-      },{
-        id: '0004',
-        imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/bd/9f7b9b2b60c1502.png',
-        desc: '踏青赏花'
-      },{
-        id: '0005',
-        imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/bd/9f7b9b2b60c1502.png',
-        desc: '踏青赏花'
-      },{
-        id: '0006',
-        imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/bd/9f7b9b2b60c1502.png',
-        desc: '踏青赏花'
-      },{
-        id: '0007',
-        imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/bd/9f7b9b2b60c1502.png',
-        desc: '踏青赏花'
-      },{
-        id: '0008',
-        imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/bd/9f7b9b2b60c1502.png',
-        desc: '踏青赏花'
-      },{
-        id: '0009',
-        imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
-        desc: '景点门票'
-      }]
+      swiperOption: {}
     }
   },
   computed: {
     pages() {
       const pages = []
-      this.iconList.forEach((item, index) => {
+      this.list.forEach((item, index) => {
         // 如果超出 8 个, 超出的第一个下标是 8, 8 / 8 = 1
         const page = Math.floor(index / 8)
         // 单页初始化，创建一个空数组
@@ -98,7 +63,7 @@ export default {
       left: 0
       right: 0
       bottom: .28rem
-      padding: .1rem
+      padding: .2rem
       box-sizing: border-box
       .icon-img-content
         display: block
