@@ -1,0 +1,71 @@
+[33mcommit 6a4b3767b41467efab0749c7fdf70476602e7ec1[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/city-vuex[m[33m, [m[1;32mcity-vuex[m[33m)[m
+Author: Christina <z574203238@outlook.com>
+Date:   Tue Apr 24 23:40:45 2018 +0800
+
+    use vuex
+
+[33mcommit e98f736bd4903531d4cfb79a83ad68625840fbe4[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/city-search-logic[m[33m, [m[1;31morigin/city-keepalive[m[33m, [m[1;32mcity-search-logic[m[33m, [m[1;32mcity-keepalive[m[33m)[m
+Author: Christina <z574203238@outlook.com>
+Date:   Tue Apr 24 21:00:51 2018 +0800
+
+    search finish
+
+[33mcommit 978740037c8c59545033fd97cb0f745d8358dc41[m[33m ([m[1;31morigin/city-components[m[33m, [m[1;32mcity-components[m[33m)[m
+Author: Christina <z574203238@outlook.com>
+Date:   Tue Apr 24 17:47:24 2018 +0800
+
+    performance
+
+[33mcommit 5bf5c2e2dc8bc0b6b2a2583ac104bbc1cde3adc9[m[33m ([m[1;31morigin/city-ajax[m[33m, [m[1;32mcity-ajax[m[33m)[m
+Author: Christina <z574203238@outlook.com>
+Date:   Tue Apr 24 16:44:29 2018 +0800
+
+    ajax city
+
+[33mcommit 67ff4a6b4fedc07a90a1d5e1a574beb28fa46125[m[33m ([m[1;31morigin/city-list[m[33m, [m[1;32mcity-list[m[33m)[m
+Author: Christina <z574203238@outlook.com>
+Date:   Tue Apr 24 16:16:49 2018 +0800
+
+    add cityList
+
+[33mcommit 31c34ceaafa890a6cd9ecc10299af5ee4e5baa5b[m[33m ([m[1;31morigin/city-search[m[33m, [m[1;32mcity-search[m[33m)[m
+Author: Christina <z574203238@outlook.com>
+Date:   Tue Apr 24 15:35:51 2018 +0800
+
+    add-search
+
+[33mcommit 29f0c99e9f5909f73ed4ed6754bb36017951db6b[m[33m ([m[1;31morigin/city-router[m[33m, [m[1;32mcity-router[m[33m)[m
+Author: Christina <z574203238@outlook.com>
+Date:   Tue Apr 24 15:27:11 2018 +0800
+
+    add city-router
+
+[33mcommit b73e652e01e275f1ed4801c9adc95eb6d0d11997[m[33m ([m[1;31morigin/index-ajax[m[33m, [m[1;32mindex-ajax[m[33m)[m
+Author: Christina <z574203238@outlook.com>
+Date:   Tue Apr 24 00:03:41 2018 +0800
+
+    index finish
+
+[33mcommit 1d0328c5373724b3dfa4cac4113c572680c1606c[m[33m ([m[1;31morigin/index-recommend[m[33m, [m[1;32mindex-recommend[m[33m)[m
+Author: Christina <z574203238@outlook.com>
+Date:   Mon Apr 23 23:18:15 2018 +0800
+
+    add recommend weekend
+
+[33mcommit 890a5ac2691bb9fbb1641bb6a072a524360e7836[m[33m ([m[1;31morigin/index-icons[m[33m, [m[1;32mindex-icons[m[33m)[m
+Author: Christina <z574203238@outlook.com>
+Date:   Mon Apr 23 21:05:28 2018 +0800
+
+    add icons
+
+[33mcommit 0a8bf89a89d0e981f001488d3fbaedde597c81e4[m[33m ([m[1;31morigin/index-swiper[m[33m, [m[1;32mindex-swiper[m[33m)[m
+Author: Christina <z574203238@outlook.com>
+Date:   Mon Apr 23 18:24:10 2018 +0800
+
+    change
+
+[33mcommit b2f9e03eaf448b165c78785db76ac377c39c76ae[m
+Author: Christina <z574203238@outlook.com>
+Date:   Mon Apr 23 17:34:49 2018 +0800
+
+    header okey
