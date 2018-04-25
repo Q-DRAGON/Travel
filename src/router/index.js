@@ -19,5 +19,9 @@ export default new Router({
       path: '/detail/:id',  // 后面可以是参数，参数放在 id 变量里
       name: 'Detail',
       component: Detail
-  }]
+  }],
+  // 进入一个初始页面, x 轴为 0, y 轴为 0
+  scrollBehavior (to, from, savedPosition) {
+      return { x: 0, y: 0 }
+  }
 })
